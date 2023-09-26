@@ -5,10 +5,10 @@
 
 export default abstract class Race {
   // atributos
-  private _name: string;
+  private _name: string; 
   private _dexterity: number;
 
-  // construtor
+  // construtor   
   constructor(name: string, dexterity: number) {
     this._name = name;
     this._dexterity = dexterity;
